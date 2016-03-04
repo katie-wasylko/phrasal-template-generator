@@ -12,7 +12,6 @@ var adjective;
 var verb;
 var story;
 
-
 var storyA = function () {
   document.write('After snacking on ' + adjective + ' treats, the ' + colour + ' bellied ' + creature + ' ' + verbed + ' for hours.');
 };
