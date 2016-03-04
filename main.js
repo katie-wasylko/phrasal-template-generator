@@ -4,3 +4,10 @@ var creature = prompt('A creature (dragon, moth, etc.)');
 var adjective = prompt('An adjective (beautiful, super, etc.)');
 var verb = prompt('A past tense verb (ran, burped, etc.)');
 var story = prompt('Which story would you like?\na) Snacking\nb) Escaping\nc) Winning');
+
+var intro;
+var colour;
+var creature;
+var adjective;
+var verb;
+var story;
