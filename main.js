@@ -11,3 +11,21 @@ var creature;
 var adjective;
 var verb;
 var story;
+
+var storyA = function () {
+  document.write('After snacking on ' + adjective + ' treats, the ' + colour + ' bellied ' + creature + ' ' + verbed + ' for hours.');
+};
+var storyB = function () {
+  document.write('Ameilia ' + verb + ' through the ' + adjective + ' ' + colour + ' nebula escaping the space ' + creature + ' .');
+};
+var storyC = function () {
+  document.write('Jackson chose his ' + adjective + ', ' + colour + ' ' + creature + ' card and ' + verb + ' it to the table knowing he won.');
+};
+
+if (story == 'a' || story == 'A') {
+  storyA();
+} else if (story == 'b' || story == 'B') {
+  storyB();
+} else if (story == 'c' || story == 'C') {
+  storyC();
+}
